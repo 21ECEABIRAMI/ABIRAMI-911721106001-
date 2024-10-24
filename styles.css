@@ -1,0 +1,100 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f9fc;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.resume-container {
+    display: flex;
+    max-width: 1200px;
+    margin: 20px auto;
+    background: white;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar {
+    background-color:rgb(109, 114, 116);
+    color: white;
+    padding: 20px;
+    width: 30%;
+    text-align: center;
+}
+
+
+.img{
+    position: relative;
+    bottom: 1px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.title {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #c4c4c4;
+}
+
+.contact-info, .skills, .languages {
+    margin-bottom: 30px;
+}
+
+.contact-info h2, .skills h2, .languages h2 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid black;
+    padding-bottom: 5px;
+}
+
+.contact-info p, .skills ul, .languages ul {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.skills ul, .languages ul {
+    list-style-type:none;
+    padding: 0;
+}
+
+.skills li, .languages li {
+    margin-bottom: 8px;
+}
+
+.content {
+    padding: 30px;
+    width: 70%;
+}
+
+h2 {
+    font-size: 20px;
+    color:black;
+    margin-bottom: 15px;
+    border-bottom: 2px solid black;
+    padding-bottom: 5px;
+    
+}
+
+.item {
+    margin-bottom: 20px;
+}
+
+.item h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.item p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.item .date, .item .grade {
+    font-size: 14px;
+    color: #777;
+    display: inline-block;
+    margin-top: 5px;
+}
